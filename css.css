@@ -1,0 +1,225 @@
+/*外边界*/
+*{
+	margin:0;padding:0;
+	}
+/*页面*/
+body{
+	 width:auto;
+	 height:0 auto;
+	 font:12px 宋体;
+	/* font-family:"微软雅黑";
+	 font-size:12px;*/
+	}
+/*top的head部分*/
+#top{background:url(images/bg.jpg); }
+#top img{ margin-left:150px;}
+/*top的菜单部分*/
+#nav_bg{ background:url(images/nav_bg.png); height:43px;}
+.clear{ 
+       clear:both;
+    }
+#nav_bg ul{ margin-left:140px;}
+#nav_bg ul li{font:bold 14px/28px 宋体; height:45px; float:left;	width:120px; color:#FFF; list-style:none; line-height:45px;}
+#nav_bg li a{color:#FFF; display:block; text-align:center; list-style:none; height:45px;}
+#nav_bg a:link{ list-style:none; color:#FFF; text-decoration:none;}
+#nav_bg a:hover{ list-style:none; color:#F00; background-image:url(images/nav_btn_hover.png); text-decoration:none;}
+#photo{
+	background:url(images/5300811240d99.jpg);
+	width:auto;
+	height:445px;
+	background-position:-160px;
+	}
+#big_div{
+	   width:1000px;
+	   height:201px;
+	   margin:0 auto;
+	 }
+/************************************************尾部****************************************/
+#foot_son{ width:990px; height:70px; margin:0 auto;}
+#foot_son img{ width:990px; height:2px; margin-top:5px;}
+/********************************************新闻展示********************************/
+#newsall{
+	width:450px;
+	height:200px;
+	margin:0 auto;
+	float:left;
+	margin-left:20px;
+	}
+
+#new{width:300px; height:80px; padding:10px; float:left; }
+#new li{list-style:none; }
+#new li a{color:#666; text-decoration:none; display:block;} 
+#new li a:hover{color:#C00; text-decoration:none; display:block;}
+#new_title{
+	background:url(images/new_title.png);
+	width:120px;
+	height:21px;
+	float:left;
+	margin:20px;	
+	}
+#more{
+	background:url(images/more.png) no-repeat;
+	width:70px;
+	height:21px;
+	float:left;
+    margin-left:210px;
+	margin-top:28px;
+	}
+/********************************************关于我们********************************/
+#about{
+	 width:450px;
+	 height:200px;	
+	 margin:0 auto;
+	 float:left;
+	 margin-left:20px;	
+	}
+#about_title{
+	background:url(images/about_title.png) no-repeat;
+	width:200px;
+	height:20px;
+	float:left; 
+	margin-left:30px;
+	margin:20px;
+	}
+#more1{
+	background:url(images/more.png) no-repeat;
+	width:70px;
+	height:21px;
+	float:left;
+	margin-left:140px;
+	margin-top:24px;
+	}
+
+/********************************************产品展示********************************/
+#productsall{
+	width:1000px;
+	height:240px;	
+	float:left;
+	margin:0 auto;
+}
+#product_title{
+	background:url(images/product_title.png) no-repeat;
+	width:200px;
+	height:20px;
+	float:left;	
+	margin:25px 0 0 25px;
+}
+#more2{
+	background:url(images/more.png) no-repeat;
+	width:70px;
+	height:21px;
+	float:left;
+	margin-left:655px;
+	margin-top:25px;	
+	}
+#product{
+	 width:950px;
+	 height:180px;	 
+	 float:left;
+	 margin:10px;
+	}
+#productlist{
+	width:140px;
+	margin:7px;
+	float:left;
+	}
+#productlist a:hover{color:#999; text-decoration:none; display:block;}
+.img_a{
+	width:140px;
+	height:140px;
+	border:#ccc solid 1px;	
+	}
+.img_a:hover{
+	width:140px;
+	height:140px;
+	border:#999 solid 1px;
+	}	
+#productlist li{
+	list-style:none;
+	text-align:center;
+	}
+#productlist li a{color:#666; text-decoration:none; display:block;} 
+#productlist li a:hover{color:#C00; text-decoration:none; display:block;}	
+/*****************************************************************公司简介*********************************************/
+#one{ background:url(images/01.jpg);
+      width:100%;
+	  height:212px; 
+	}
+#big_two{ width:1000px; height:620px; margin:0 auto; }
+#left{ width:196px; height:470px;  float:left;  }
+#left_bg{ background:url(images/left_bg.png) no-repeat; width:196px; height:176px;
+       float:left;
+	   margin-top:-60px;}
+#left_bg p{margin-top:80px; margin-left:9px; font:14px 宋体; width:179px; height:40px; }
+#left_bg a{ margin-left:0px; font:14px 宋体; display:block; background-color:#999; text-align:center; line-height:40px; text-decoration:none; color:#fff;
+}
+#left_bg a:hover{display:block;  background-color:#CCC; text-align:center; line-height:40px; text-decoration:none; color:#000;
+}
+
+#contact_bg{ background:url(images/contact_bg.jpg) no-repeat; width:179px; height:314px;
+              float:left; margin-left:10px;
+}
+#contact_bg p{ margin-top:130px; margin-left:10px;}
+#right{ width:770px; height:600px; float:left; margin-left:20px;}
+#right_one{ width:770px; height:60px; }
+#div_1{ width:110px; height:30px; float:left; margin-top:33px; margin-left:10px;}
+#div_2{ width:200px; height:20px; float:left; margin-left:570px; margin-top:-20px;}
+#right_two{ width:770px; height:570px; float:left; margin-top:10px; }
+#right_two p{ font:17px 宋体; margin-top:10px;}
+
+/***************************************************************************产品中心*************************************************/
+#left_bg1{ background:url(images/left_bg.png) no-repeat; width:196px; height:176px;
+       float:left;
+	   margin-top:-60px;}
+#left_bg1 p{margin-top:80px; margin-left:9px; font:14px 宋体; width:179px; height:40px; }
+#left_bg1 a{ margin-left:0px; font:14px 宋体; display:block; background-color:#999; text-align:center; line-height:40px; text-decoration:none; color:#fff;
+}
+#left_bg1 a:hover{display:block;  background-color:#CCC; text-align:center; line-height:40px; text-decoration:none; color:#000;
+}
+
+#contact_bg1{ background:url(images/contact_bg.jpg) no-repeat; width:179px; height:314px;
+              float:left; margin-left:9px; margin-top:113px;
+}
+#contact_bg1 p{ margin-top:130px; margin-left:10px;}
+/******right样式与公司简介相同************/
+#right1_two{ width:770px; height:450px; float:left; margin-top:10px;}
+#right_pro{ width:230px; height:170px;  margin:10px;  float:left; }/***********剩余26px*** width:230px; height:164px;****************/
+#right_pro img{ width:200px; height:140px; border:#999 solid 1px; margin-left:10px;	}
+#right_pro li{list-style:none; text-align:center; margin-top:5px; }
+#page{ width:770px; height:30px; float:left; text-align:center; font:20px/25px 宋体;  }
+#right2_two{ width:770px; height:550px; float:left;}
+/*****************************************************************************新闻页******************************************************************/
+#right2_div_table{ margin-left:20px; margin-top:30px;}
+#right2_div_table tr td{font:15px/18px 宋体;}
+#right2_div_table a{ font-size:14px; color:#666; text-decoration:none; border-bottom:1px #ccc dashed; width:600px; display:block;} 
+#right2_div_table a:hover{ font-size:14px; color:#900; text-decoration:none; border-bottom:1px #ccc dashed; width:600px; display:block;} 
+/****************************************************************************售后服务*************************************************************/
+#right2_two table{ margin:0 auto; margin-top:20px;}
+/****************************************************************************产品详情*************************************************************/
+#picture{ width:280px; height:280px; float:left; margin-top:20px; margin-left:10px;}
+#description{ width:450px; height:280px; float:left; margin-left:15px; margin-top:20px; }
+#name{ width:430px; height:50px; float:left; margin-top:10px; margin-left:10px;}
+#pro_son{ width:430px; height:180px; float:left; margin-left:10px;  margin-top:20px;}
+#pro_son ul li{ list-style:none; font:15px/20px 宋体; margin-left:20px;}
+/********************************************************************************留言增加**************************************************************/
+#title{ width:770px; height:50px; float:left; font:bold 25px/20px 宋体; text-align:center; margin-top:30px;}
+#content{width:600px; height:300px; float:left; font:18px/20px 宋体;margin-top:20px; margin-left:100px;}
+#writeDate{ width:200px; height:30px; float:left; font:17px/20px 宋体; margin-left:550px; margin-top:50px;}
+#right3_two{width:770px; height:550px; float:left; }
+#message{ width:500px; height:300px; margin-top:100px; margin-left:100px;}
+#message li{ list-style:none; text-align:center; font:17px/20px 宋体;}
+/********************************************************************************留言管理**************************************************************/
+#right1_two table { margin-top:40px; margin-left:20px;}
+/********************************************************************************回复增加**************************************************************/
+
+#right1{ width:770px;  float:left; margin-left:20px;}
+
+#revert_left{ width:700px;  margin-top:30px; font:15px/15px 宋体; }
+#revert_left ul{ margin-left:150px; font:bold 15px/15px 宋体; }
+#revert_left li{ list-style:none;  color:#F30;}
+#revert_center{width:700px;margin-top:20px; font:15px/15px 宋体; }
+.p{ margin-top:20px; }
+#revert_center p{margin-left:150px;}
+#revert_right{width:700px; height:240px; margin-top:20px;  font:15px/15px 宋体; }
+#revert_right ul{margin-left:150px;}
+#revert_center,#revert_right li{ list-style:none;}
